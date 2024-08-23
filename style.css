@@ -1,0 +1,39 @@
+/*colors: white #f9f6ed   blue #c5d0d3    yellow  #efe095    brown: #824c2f*/
+
+body{
+  margin: 10px;
+  background-color:#f9f6ed ;
+  color:#824c2f ;
+  text-align: center;
+
+
+}
+button{
+  width: 30px;
+  height: 30px;
+  background-color: #efe095;
+  border-style: none;
+  border-radius: 20px;
+}
+.products{
+  display: flex;
+}
+.product{
+
+  background-color:#c5d0d3;
+  margin: 30px;
+  padding: 10px;
+}
+
+img {
+  height: 200px;
+  width: 220px;
+}
+.del{
+  width: 50px;
+  background-color: #824c2f;
+  color: #f9f6ed;
+}
+button:active{
+  background-color:#9cc2cc ;
+}
